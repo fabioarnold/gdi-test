@@ -1,0 +1,11 @@
+.{
+    .name = "gdi-test",
+    .version = "0.0.0",
+
+    .dependencies = .{
+        .zigwin32 = .{
+            .url = "https://github.com/fabioarnold/zigwin32/archive/0c2d1ac3fc8ef392ee69d5c30b67657fe1ca0393.tar.gz",
+            .hash = "1220e96fbfa499a782fdde920741445a8215acc089f84b265d215d5880610795637d",
+        }
+    }
+}
